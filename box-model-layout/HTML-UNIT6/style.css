@@ -1,0 +1,12 @@
+form{
+    border: 1px solid rgb(20, 20, 20);
+}
+input[type="submit"]{
+    background-color: chartreuse;
+}
+#reset{
+    background-color: cadetblue;
+}
+label{
+    background-color: gold;
+}

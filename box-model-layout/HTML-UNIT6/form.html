@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form practice</title>
+</head>
+<body>
+    <form action="/search" method="post">
+        <ul style="list-style: none;">
+            <li>
+                <label for="name">Введите имя:</label>
+        <input type="text" id="username" name="username"/>
+            </li>
+            <li>
+                <label for="name">Введите пароль:</label>
+        <input type="text" id="password" name="password"/>
+            </li>
+            <li>
+                <p>Пол:</p>
+                <input type="radio" id="male" value="male" name="sex"/>
+                <label for="male">Мужской</label>
+                <input type="radio" id="woman" value="woman" name="sex"/>
+                <label for="woman">Женский</label>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="my-checkbox"/>
+                <label for="my-checkbox">Запомнить</label>
+            </li>
+            <li>
+                <input type="submit"/>
+            </li>
+            <li>
+                <input type="reset" id="reset"/>
+            </li>
+        </ul>
+    </form>
+    
+</body>
+</html>

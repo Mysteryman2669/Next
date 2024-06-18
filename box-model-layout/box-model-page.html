@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Page</title>
+    <style>
+        *{
+            border: 1px solid black;
+
+            
+        }
+        header{
+            background-color: orange;
+            text-align: center;
+        }
+        footer{
+            background-color: chartreuse;
+            text-align: center;
+            clear: left;
+        }
+        aside, main{
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Заголовок страницы</h1>
+    </header>
+    <aside>
+        Боковая панель
+    </aside>
+    <main>
+        <section>
+            <h1>Раздел1</h1>
+            <p>Описание/текст раздела</p>
+        </section>
+    </main>
+    <aside>Правая боковая панель</aside>
+    <footer>&copy;Все права защищены</footer>
+</body>
+</html>
